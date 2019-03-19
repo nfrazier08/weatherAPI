@@ -1,0 +1,5 @@
+GET https://api.darksky.net/forecast/[SECRET KEY]/[LATITUDE],[LONGITUDE]
+*This call returns just about everything we would want to know about the weather at the given LATITUDE and LONGITUDE
+
+GET https://api.darksky.net/forecast/[SECRET KEY]/[LATITUDE],[LONGITUDE]?time=currently&exclude=minutely, hourly, daily
+* This call returns the weather currently, excluding the minute, hourly and daily weather
